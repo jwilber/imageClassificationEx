@@ -1,4 +1,4 @@
-# Image Classification POC (Notebook)
+# Image Classification POC 
 
  
 
@@ -21,7 +21,13 @@ Running either the flask app or the notebook requires a few libraries to be inst
 
 To view a list of required dependencies, view the `requirements.txt` file.
 
- 
+To use the notebook or the flask app, you must first download the model.
+
+This is available for download <a href="https://drive.google.com/file/d/1Zs6uN-8zlG7NOqIyan5_z9_53txC2ilj/view?usp=sharing">here</a>.
+
+Once you've downloaded the model, move it into `imageClassificationEx/flask_apps/`
+
+
 
 ### Installing
 
