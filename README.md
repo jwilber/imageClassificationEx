@@ -5,6 +5,15 @@
 Example demonstrating a simple image classification algorithm trained to predict ground ('pad-mounted') transformers vs pole-mounted transformers.
 
  
+### Flask App:
+
+![Alt text](images/imageclassflaskapp.png?raw=true "FlaskApp")
+
+#### Notebook:
+
+Available for view in `notebooks/imageClassDemo.ipynb`
+
+![Alt text](imageclassnotebook.png?raw=true "Notebook")
 
 ## Getting Started
 
