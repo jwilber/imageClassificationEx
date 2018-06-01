@@ -42,7 +42,6 @@ Once you've set up a local environment, installing the libraries is as easy as a
 
 ```
 pip install -r requirements.txt
-
 ```
 
 Note, if you run into an issue regarding `tensorflow`, try running the following command (inside your project environment):
@@ -56,7 +55,6 @@ To obtain the notebook and required files, simply clone the repo into the desire
 
 ```
 git clone https://github.com/jwilber/imageClassificationPOC.git
-
 ```
 
 
@@ -79,10 +77,9 @@ To run the notebook, `cd` into the cloned repo, and run `jupyter notebook`:
  
 
 ```
->> cd
-
+>> cd mageClassificationEx
 >> jupyter notebook
 ```
 
-The browser should open. Otherwise, copy and paste the specified link into your web-browser.
+The browser should open a directory; open the `.ipynb` file. Otherwise, copy and paste the specified link into your web-browser.
 
