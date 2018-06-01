@@ -54,7 +54,7 @@ To obtain the notebook and required files, simply clone the repo into the desire
 
 
 ```
-git clone https://github.com/jwilber/imageClassificationPOC.git
+git clone https://github.com/jwilber/imageClassificationEx.git
 ```
 
 
@@ -63,8 +63,9 @@ git clone https://github.com/jwilber/imageClassificationPOC.git
 To run the flask app, navigate to the root of the project directory and run the following commands:
 
 ```
->> export FLASK_APP=predict_app.py
->> flask run --host=0.0.0.0
+cd imageClassificationEX/flask_apps
+export FLASK_APP=predict_app.py
+flask run --host=0.0.0.0
 ```
 
 Then, open a web-browser and navigate to `http://localhost:5000/static/predict.html`
@@ -77,8 +78,8 @@ To run the notebook, `cd` into the cloned repo, and run `jupyter notebook`:
  
 
 ```
->> cd mageClassificationEx
->> jupyter notebook
+cd imageClassificationEx
+jupyter notebook
 ```
 
 The browser should open a directory; open the `.ipynb` file. Otherwise, copy and paste the specified link into your web-browser.
